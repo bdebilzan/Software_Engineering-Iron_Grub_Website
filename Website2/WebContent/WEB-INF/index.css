@@ -1,0 +1,223 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  padding-top: 0px;
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("https://static.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg");
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-image: url("https://static.pexels.com/photos/461198/pexels-photo-461198.jpeg");
+  min-height: 400px;
+}
+.bgimg-3 {
+  background-image: url("https://static.pexels.com/photos/196643/pexels-photo-196643.jpeg");
+  min-height: 400px;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+
+h1 {
+	letter-spacing: 5px;
+  text-transform: uppercase;
+  font:"Lato", sans-serif;
+  color: #D2691E;
+	
+}
+
+h4 {
+	text-transform: uppercase;
+  	font:"Lato", sans-serif;
+}
+
+p
+{
+	font: 12px "Lato", sans-serif;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, {
+        background-attachment: scroll;
+    }
+}
+
+
+
+body {
+	margin: 0;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	top: 0;
+	width: 100%;
+}
+
+
+.topnav a {
+	float: right;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.topnav a:hover {
+	background-color: #474747;
+	color: white;
+}
+
+.topnav a.active {
+	background-color: #333;
+	color: white;
+}
+
+.logo-img {
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+.logo-img2 {
+    float: right;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+.delivertext{
+	float: right;
+	position: relative;
+    margin: 10px;
+}
+
+body {
+	background-color: white;
+}
+
+table {
+	width: 100%;
+}
+
+th, td {
+	border: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.img {
+	width: 200px;
+	height: 200px;
+	border: 1px solid #cecece;
+	/*box-shadow: 3px 3px 1px #ccc;
+	-moz-box-shadow: 3px 3px 1px #ccc;
+	-webkit-box-shadow: 3px 3px 1px #ccc;
+	-khtml-box-shadow: 3px 3px 1px #ccc;*/
+}
+
+.container2
+{
+	padding: 6px 25px 0px 25px;
+}
+
+.footer
+{
+	padding: 85px 85px 85px 85px;
+}
+
+.container3
+{
+	padding: 0px 50px 0px 50px;
+}
+
+.crop
+{
+	height: 300px;
+	overflow: hidden;
+}
+
+.crop img {
+	width: 100%;
+	margin-top: -75px;
+}
+
+.align-left {
+  float: left;
+  width:33.33333%;
+  text-align:center;
+}
+
+.align-center{
+ float: left;
+  width:33.33333%;
+  text-align:center;
+}
+
+.align-right{
+ float: left;
+ width:33.33333%;
+ text-align:center;
+}
+
+
+.align-right2{
+ float: right;
+ width:50.33333%;
+ text-align:center;
+}
+
+.button
+{
+	background-color: #D2691E;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    border: 1px solid #cecece;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background-color: #ca5517;
+    color: white;
+}

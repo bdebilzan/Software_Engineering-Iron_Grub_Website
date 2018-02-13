@@ -1,0 +1,112 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+ 
+}
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg-1 {
+  background-image: url("https://static.pexels.com/photos/54455/cook-food-kitchen-eat-54455.jpeg");
+  min-height: 100%;
+}
+.bgimg-2 {
+  background-image: url("https://static.pexels.com/photos/461198/pexels-photo-461198.jpeg");
+  min-height: 400px;
+}
+.bgimg-3 {
+  background-image: url("https://static.pexels.com/photos/196643/pexels-photo-196643.jpeg");
+  min-height: 400px;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, {
+        background-attachment: scroll;
+    }
+}
+
+
+
+body {
+	margin: 0;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
+body {
+	background-color: white;
+}
+
+table {
+	width: 100%;
+}
+
+th, td {
+	border: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.img {
+	width: 180px;
+	height: 180px;
+	border: 1px solid #fff;
+	box-shadow: 5px 5px 3px #ccc;
+	-moz-box-shadow: 5px 5px 3px #ccc;
+	-webkit-box-shadow: 5px 5px 3px #ccc;
+	-khtml-box-shadow: 5px 5px 3px #ccc;
+}
